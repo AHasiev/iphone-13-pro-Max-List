@@ -2,29 +2,29 @@
   margin: 0px;
   padding: 0px;
 }
+
 body {
   background: #e5e5e5;
 }
 
 .header {
+  /* display: flex; */
   height: 56px;
-  width: 390px;
+  width: 428px;
   background-color: #a77c5d;
-  box-shadow: -4px 6px 17px -7px #000000;
+  /* box-shadow: -4px 6px 17px -7px #000000; */
 }
 
 .header_img_burger {
-  position: absolute;
-  left: 10px;
-  right: 17.71%;
-  top: 2%;
+  margin-left: 10px;
+  margin-right: 17.71%;
+  margin-top: 2%;
 }
 
 .header_title {
-  position: absolute;
-  left: 45px;
-  top: 2%;
-  bottom: 25%;
+  margin-left: 45px;
+  margin-top: 2%;
+  margin-bottom: 25%;
   font-family: Roboto;
   font-size: 24px;
   font-weight: 400;
@@ -33,22 +33,19 @@ body {
 }
 
 .header_img_plus {
-  position: absolute;
-  left: 356px;
-  top: 2.5%;
+  margin-left: 356px;
+  margin-top: 2.5%;
 }
 
 .main_firstCat {
-  position: absolute;
   width: 365px;
   height: 108px;
-  left: 12px;
-  top: 80px;
+  margin-left: 12px;
+  margin-top: 80px;
   box-shadow: 6px 6px 17px -7px #000000;
 }
 
 .main_polimorf {
-  position: absolute;
   height: 108px;
   width: 365px;
   border-radius: 12px;
@@ -58,12 +55,10 @@ body {
 .main_polimorf__icon,
 .main_pulheria__icon,
 .main_apofem__icon {
-  position: absolute;
-  left: 15px;
-  top: 22px;
+  margin-left: 15px;
+  margin-top: 22px;
 }
 .main_title {
-  position: absolute;
   font-family: Roboto;
   font-size: 24px;
   font-weight: 400;
@@ -72,14 +67,13 @@ body {
   text-align: left;
   height: 28px;
   width: 92px;
-  left: 99px;
-  top: 31px;
+  margin-left: 99px;
+  margin-top: 31px;
 }
 
 .main_weight {
-  position: absolute;
-  left: 99px;
-  bottom: 28px;
+  margin-left: 99px;
+  margin-bottom: 28px;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
@@ -87,11 +81,10 @@ body {
 }
 
 .main_time {
-  position: absolute;
   height: 14px;
   width: 61px;
-  left: 290px;
-  top: 82px;
+  margin-left: 290px;
+  margin-top: 82px;
   font-family: Roboto;
   font-size: 12px;
   font-weight: 400;
@@ -99,22 +92,19 @@ body {
 }
 
 .main_edit__icon {
-  position: absolute;
-  left: 330px;
-  right: 17.71%;
-  top: 14.58%;
-  bottom: 13.54%;
+  margin-left: 330px;
+  margin-right: 17.71%;
+  margin-top: 14.58%;
+  margin-bottom: 13.54%;
 }
 
 .main_twoCat {
-  position: absolute;
-  top: 200px;
-  left: 13px;
+  margin-top: 200px;
+  margin-left: 13px;
 }
 
 .main_pulheria,
 .main_apofem {
-  position: absolute;
   height: 108px;
   width: 365px;
   border-radius: 12px;
@@ -123,7 +113,6 @@ body {
 }
 
 .main_threeCat {
-  position: absolute;
-  top: 320px;
-  left: 13px;
+  margin-top: 320px;
+  margin-left: 13px;
 }
