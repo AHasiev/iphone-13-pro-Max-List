@@ -8,11 +8,11 @@ body {
 }
 
 .header {
-  /* display: flex; */
+  display: flex;
   height: 56px;
   width: 428px;
   background-color: #a77c5d;
-  /* box-shadow: -4px 6px 17px -7px #000000; */
+  box-shadow: -4px 6px 17px -7px #000000;
 }
 
 .header_img_burger {
