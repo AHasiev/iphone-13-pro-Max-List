@@ -28,7 +28,6 @@ body {
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0em;
 }
 
 .header_img_plus {
@@ -36,7 +35,7 @@ body {
   margin-top: -5.5%;
 }
 
-.main_firstCat {
+.main_blockCatBlue{
   width: 402px;
   height: 108px;
   margin-left: 12px;
@@ -44,7 +43,7 @@ body {
   box-shadow: 6px 6px 17px -7px #000000;
 }
 
-.main_polimorf {
+.main_blockCatBlue__polimorf {
   height: 108px;
   width: 402px;
   margin-top: 22px;
@@ -52,18 +51,19 @@ body {
   border: 1px solid black;
 }
 
-.main_polimorf__icon,
-.main_pulheria__icon,
-.main_apofem__icon {
+.main_blockCatBlue__polimorfIcon,
+.main_violetCat__pulheriaIcon,
+.main_redCat__apofemIcon {
   margin-left: 23px;
   margin-top: 22px;
 }
-.main_title {
+.main_blockCatBlue__title,
+.main_violetCat__title,
+.main_redCat__title {
   font-family: Roboto;
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0em;
   text-align: left;
   height: 28px;
   width: 92px;
@@ -71,7 +71,9 @@ body {
   margin-top: -64px;
 }
 
-.main_weight {
+.main_blockCatBlue__weight,
+.main_violetCat__weight,
+.main_redCat__weight {
   margin-left: 106px;
   margin-top: 5px;
   font-family: Roboto;
@@ -80,7 +82,9 @@ body {
   line-height: 24px;
 }
 
-.main_time {
+.main_blockCatBlue__time,
+.main_violetCat__time,
+.main_redCat__time {
   height: 14px;
   width: 61px;
   margin-left: 330px;
@@ -88,23 +92,25 @@ body {
   font-family: Roboto;
   font-size: 12px;
   font-weight: 400;
-  line-height: 14px;
 }
 
-.main_edit__icon {
+.main_blockCatBlue__editIcon,
+.main_violetCat__editIcon,
+.main_redCat__editIcon {
   margin-left: 369px;
   margin-right: 17.71%;
   margin-top: -15.42%;
   margin-bottom: 13.54%;
 }
 
-.main_twoCat {
+.main_violetCat,
+.main_redCat {
   margin-top: 17px;
   margin-left: 13px;
 }
 
-.main_pulheria,
-.main_apofem {
+.main_violetCat__pulheria,
+.main_redCat__apofem {
   height: 108px;
   width: 402px;
   border-radius: 12px;
@@ -112,7 +118,3 @@ body {
   box-shadow: 6px 6px 17px -7px #000000;
 }
 
-.main_threeCat {
-  margin-top: 14px;
-  margin-left: 13px;
-}
